@@ -25,3 +25,18 @@
         margin-bottom: min(20px);
     }
 }
+
+@media(min-width: 2500px) {
+    .aboutmyndir {
+        width: 775px;
+        height: 600px;
+        margin-left: max(30px);
+    }
+}
+
+.abouttekstur {
+    display: flex;
+    justify-content: space-around;
+    margin-left: min(5px);
+    height: auto;
+}

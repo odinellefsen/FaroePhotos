@@ -37,12 +37,22 @@ const about = () => {
           <div className={styles.flextime}>
           <div className='cash'>
             <img src='https://media.timeout.com/images/105705260/1372/1029/image.jpg' alt="kalsoy" className={styles.aboutmyndir} test-cy = 'mynd'></img>
-             </div>
+            <div className={styles.aboutmyndatekstur}>
+              <div className={styles.aboutmyndaparent}><p className={styles.abouttekstur}>Faroe Islands Photography is a website created by unexperienced software engineer Óðin Andor Ellefsen</p></div>
+            </div>
+          </div>
           <div className='cash'>
             <img src='https://media.timeout.com/images/105705258/1372/1029/image.jpg' alt="vágar" className={styles.aboutmyndir} test-cy = 'mynd'></img>
+            <div className={styles.aboutmyndatekstur}>
+              <div className={styles.aboutmyndaparent}><p className={styles.abouttekstur}>The Pictures on Faroe Islands Photography have been taken from the internet and are not this websites property</p></div>
+            </div>
              </div>
+          
           <div className='cash'>
             <img src='https://media.timeout.com/images/105705256/1372/1029/image.jpg' alt="tindhólmur" className={styles.aboutmyndir} test-cy = 'mynd'></img>
+            <div className={styles.aboutmyndatekstur}>
+              <div className={styles.aboutmyndaparent}><p className={styles.abouttekstur}>The point of this website is to show beautiful pictures of the Faroe Islands and faroese nature</p></div>
+            </div>
              </div>
         </div>     
     </div>
