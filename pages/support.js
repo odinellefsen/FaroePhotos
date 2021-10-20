@@ -5,7 +5,7 @@ import styles from '../styles/Layout.module.css'
 const support = () => {
     return (
         <div>
-           <div>
+           
       <Head>
         <title>FaroePhotos</title>
         <meta name='keywords' content='web development, programming'></meta>
@@ -33,8 +33,6 @@ const support = () => {
           <div className="h2">
               <h2 className='h2h2'>Customer Support</h2>
           </div>
-      
-    </div> 
         </div>
     )
 }
