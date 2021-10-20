@@ -77,8 +77,6 @@ b {
     margin: auto;
   }
 
-
-  
   .cash {
     display: flex;
     flex-direction: column;
@@ -96,6 +94,20 @@ b {
   .myndateksturparent {
       display: flex;
       justify-content: center;
+  }
+
+  @media(max-width: 400px) {
+    .money {
+      width: 450px;
+      height: 350px;
+    }
+    .myndateksturparent {
+      width: 450px;
+      height: 40px;
+    }
+    .navbar {
+      width: 450px;
+    }
   }
   
   .caption-ljósmyndir {

@@ -38,23 +38,23 @@ const form = () => {
             <form action='https://formspree.io/f/xpzknejo' method='POST' className='my-form'>
               
               <div className='form-group'>
-                <label for='name'>Your Name</label>
-                <input type='text' id='name' name='name' autocomplete='nope' required />
+                <label htmlFor='name'>Your Name</label>
+                <input type='text' id='name' name='name' autoComplete='nope' required />
               </div>
 
               <div className='form-group'>
-                <label for='email'>Your Email</label>
-                <input type='email' id='email' name='email' autcomplete='false' required />
+                <label htmlFor='email'>Your Email</label>
+                <input type='email' id='email' name='email' autoComplete='false' required />
               </div>
 
               <div className='form-group'>
-                <label for='imageSource'>Paste image source</label>
-                <input type='url' id='imageSrc' name='src' autocomplete='nope' required />
+                <label htmlFor='imageSource'>Paste image source</label>
+                <input type='url' id='imageSrc' name='src' autoComplete='nope' required />
               </div>
 
               <div className='form-group'>
-                <label for='message'>Message</label>
-                <textarea name='message' id='message' cols='30' rows='10' maxlength='400'></textarea>
+                <label htmlFor='message'>Message</label>
+                <textarea name='message' id='message' cols='30' rows='10' maxLength='400'></textarea>
               </div>
               
               <button type='submit'>Submit</button>
