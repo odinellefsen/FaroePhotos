@@ -18,7 +18,7 @@
 }
 
 
-@media(min-width:768px) {
+@media(min-width:568px) {
     .flextime {
         justify-content: space-around;
         flex-direction: row;

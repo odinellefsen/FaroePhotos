@@ -38,7 +38,7 @@ const about = () => {
           <div className='cash'>
             <img src='https://media.timeout.com/images/105705260/1372/1029/image.jpg' alt="kalsoy" className={styles.aboutmyndir} test-cy = 'mynd'></img>
             <div className={styles.aboutmyndatekstur}>
-              <div className={styles.aboutmyndaparent}><p className={styles.abouttekstur}>Faroe Islands Photography is a website created by unexperienced software engineer Óðin Andor Ellefsen</p></div>
+              <div className={styles.aboutmyndaparent}><p className={styles.abouttekstur}>Faroe Islands Photography is a website created by new software engineer Óðin Andor Ellefsen</p></div>
             </div>
           </div>
           <div className='cash'>
