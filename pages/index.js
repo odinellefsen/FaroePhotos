@@ -22,7 +22,7 @@ export default function Home() {
                 <Link href='/about'>About</Link>
               </li>
               <li>
-                <Link href='/support'>Support</Link>
+                <Link href='/support'>Contact</Link>
               </li>
               <li>
                 <Link href='/form'>Form</Link>

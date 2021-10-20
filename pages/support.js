@@ -23,7 +23,7 @@ const support = () => {
                 <Link href='/about'>About</Link>
               </li>
               <li>
-                <Link href='/support'><b>Support</b></Link>
+                <Link href='/support'><b>Contact</b></Link>
               </li>
               <li>
                 <Link href='/form'>Form</Link>
