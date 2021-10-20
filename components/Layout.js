@@ -30,7 +30,7 @@ const GlobalStyle = createGlobalStyle`
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #fafafa;
+    background-color: #fff;
 }
 
 .hometitle {
@@ -96,7 +96,7 @@ b {
       justify-content: center;
   }
 
-  @media(max-width: 400px) {
+  @media(max-width: 768px) {
     .money {
       width: 450px;
       height: 350px;
@@ -104,9 +104,6 @@ b {
     .myndateksturparent {
       width: 450px;
       height: 40px;
-    }
-    .navbar {
-      width: 450px;
     }
     .caption-ljósmyndir {
       margin: 0px 0px 16px 0px;
@@ -132,7 +129,6 @@ b {
     width: 100%;
     background-color: #fff;
     display: flex;
-    align-items: center;
     justify-content: center;
     flex-direction: column;
   }
@@ -145,7 +141,8 @@ b {
     box-shadow: 0px 0px 20px #00000010;
     background-color: #fff;
     border-radius: 8px;
-    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
   }
   
   .form-group {
