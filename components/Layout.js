@@ -97,9 +97,6 @@ b {
   }
 
   @media(max-width: 768px) {
-    .h2h2 {
-      margin-bottom: min(150px);
-    }
     .money {
       width: 450px;
       height: 350px;
@@ -110,6 +107,12 @@ b {
     }
     .caption-ljósmyndir {
       margin: 0px 0px 16px 0px;
+    }
+  }
+
+  @media(max-width: 1500px) {
+    .h2h2 {
+      margin-bottom: min(150px);
     }
   }
   
