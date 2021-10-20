@@ -60,6 +60,7 @@ const GlobalStyle = createGlobalStyle`
 .h2h2 {
     font-size: 35px;
     font-family: Caveat;
+    margin-bottom: min(150px);
 }
 
 b {
