@@ -60,6 +60,7 @@ const GlobalStyle = createGlobalStyle`
 .h2h2 {
     font-size: 35px;
     font-family: Caveat;
+    margin-bottom: 10px;
 }
 
 b {
@@ -110,11 +111,6 @@ b {
     }
   }
 
-  @media(max-width: 1500px) {
-    .h2h2 {
-      margin-bottom: min(150px);
-    }
-  }
   
   .caption-ljósmyndir {
       padding: 0px 0px 0px 5px;
@@ -131,7 +127,7 @@ b {
   }
 
   section {
-    height: 55vh;
+    height: auto;
     width: 100%;
     background-color: #fff;
     display: flex;
