@@ -24,6 +24,9 @@
         flex-direction: row;
         margin-bottom: min(20px);
     }
+    .abouttekstur {
+        margin-left: min(55px);
+    }
 }
 
 @media(min-width: 2500px) {
@@ -37,6 +40,6 @@
 .abouttekstur {
     display: flex;
     justify-content: space-around;
-    margin-left: min(5px);
     height: auto;
+    margin-left: min(5px);
 }
