@@ -30,7 +30,7 @@ const form = () => {
             </ul>
           </nav>
           <div className="h2">
-              <h2 className='h2h2'>Want to recommend a photo? fill out form please :) </h2>
+              <h2 className='h2h2'>Want to recommend a photo? fill out form please :)</h2>
           </div>
 
         <section>
