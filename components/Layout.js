@@ -60,7 +60,6 @@ const GlobalStyle = createGlobalStyle`
 .h2h2 {
     font-size: 35px;
     font-family: Caveat;
-    margin-bottom: min(150px);
 }
 
 b {
@@ -98,6 +97,9 @@ b {
   }
 
   @media(max-width: 768px) {
+    .h2h2 {
+      margin-bottom: min(150px);
+    }
     .money {
       width: 450px;
       height: 350px;
