@@ -108,6 +108,9 @@ b {
     .navbar {
       width: 450px;
     }
+    .caption-ljósmyndir {
+      margin: 0px 0px 18px 0px;
+    }
   }
   
   .caption-ljósmyndir {
