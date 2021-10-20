@@ -109,7 +109,7 @@ b {
       width: 450px;
     }
     .caption-ljósmyndir {
-      margin: 0px 0px 18px 0px;
+      margin: 0px 0px 16px 0px;
     }
   }
   
