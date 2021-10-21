@@ -24,8 +24,11 @@
         flex-direction: row;
         margin-bottom: min(20px);
     }
+}
+
+@media(min-width: 300px) and (max-width: 475px) {
     .abouttekstur {
-        margin-left: min(55px);
+        padding-left: 50px;
     }
 }
 
@@ -35,6 +38,10 @@
         height: 600px;
         margin-left: max(30px);
     }
+    .abouttekstur {
+        width: 775px;
+        height: auto;
+    }
 }
 
 .abouttekstur {
@@ -42,4 +49,7 @@
     justify-content: space-around;
     height: auto;
     margin-left: min(5px);
+    width: 475px;
+    height: auto;
+    font-family: Times;
 }

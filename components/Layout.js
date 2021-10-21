@@ -2,6 +2,7 @@ import { Fragment } from "react"
 import styles from '../styles/Layout.module.css'
 import styled, { createGlobalStyle } from "styled-components"
 import Link from 'next/link'
+import Header from './Header'
 
 const Layout = ({ children }) => {
     return (

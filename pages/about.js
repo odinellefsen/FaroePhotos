@@ -29,11 +29,11 @@ const about = () => {
                 <Link href='/form'>Form</Link>
               </li>
             </ul>
-          </nav>
+    </nav>
+
           <div className='h2'>
           <h2 className='h2h2'>About Us</h2>
           </div> 
-
           <div className={styles.flextime}>
           <div className='cash'>
             <img src='https://media.timeout.com/images/105705260/1372/1029/image.jpg' alt="kalsoy" className={styles.aboutmyndir} test-cy = 'mynd'></img>
@@ -58,5 +58,6 @@ const about = () => {
     </div>
   )
 }
+
 
 export default about
