@@ -35,7 +35,7 @@ const form = () => {
 
         <section>
           <div className='container'>
-            <form action='https://formspree.io/f/xpzknejo' method='POST' className='my-form'>
+            <form action='https://formspree.io/f/xpzknejo' method='POST'>
               
               <div className='form-group'>
                 <label htmlFor='name'>Your Name</label>

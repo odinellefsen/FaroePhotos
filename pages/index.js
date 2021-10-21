@@ -29,8 +29,6 @@ export default function Home() {
               </li>
             </ul>
           </nav>
-          
-      
 
           <div className='allar-myndir'>
       <div className='cash'>
