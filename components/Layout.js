@@ -174,7 +174,7 @@ b {
     padding: 20px;
     font-size: 24px;
     border-radius: 8px;
-    font-family; 'Times New Roman';
+    font-family: 'Times New Roman';
     color: rgb(27, 166, 247);
     cursor: pointer;
     margin-top: 10px;
