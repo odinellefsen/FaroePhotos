@@ -15,8 +15,12 @@
     width: 475px;
     height: 300px;    
     margin-left: min(5px);
+    cursor: pointer;
 }
 
+.aboutmyndir:hover {
+    opacity: 0.7;
+}
 
 @media(min-width:568px) {
     .flextime {
@@ -32,15 +36,13 @@
     }
 }
 
-@media(min-width: 2500px) {
+@media(min-width: 2500px) and (max-width: 6000px) {
     .aboutmyndir {
         width: 775px;
         height: 600px;
         margin-left: max(30px);
     }
     .abouttekstur {
-        width: 775px;
-        height: auto;
         padding-left: 26px;
     }
 }

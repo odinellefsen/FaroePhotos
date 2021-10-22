@@ -17,16 +17,16 @@ const about = () => {
          </div>
             <ul className='navlinks'>
               <li>
-                <Link href='/'>Home</Link>
+                <Link href='/' test-cy = 'homebutton'>Home</Link>
               </li>
               <li>
-                <Link href='/about'><b>About</b></Link>
+                <Link href='/about' test-cy = 'aboutbutton'><b>About</b></Link>
               </li>
               <li>
-                <Link href='/support'>Contact</Link>
+                <Link href='/support' test-cy = 'contactbutton'>Contact</Link>
               </li>
               <li>
-                <Link href='/form'>Form</Link>
+                <Link href='/form' test-cy = 'formbutton'>Form</Link>
               </li>
             </ul>
     </nav>

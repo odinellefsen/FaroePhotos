@@ -16,16 +16,16 @@ const form = () => {
          </div>
             <ul className='navlinks'>
               <li>
-                <Link href='/'>Home</Link>
+                <Link href='/' test-cy = 'homebutton'>Home</Link>
               </li>
               <li>
-                <Link href='/about'>About</Link>
+                <Link href='/about' test-cy = 'aboutbutton'>About</Link>
               </li>
               <li>
-                <Link href='/support'>Contact</Link>
+                <Link href='/support' test-cy = 'contactbutton'>Contact</Link>
               </li>
               <li>
-                <Link href='/form'><b>Form</b></Link>
+                <Link href='/form' test-cy = 'formbutton'><b>Form</b></Link>
               </li>
             </ul>
           </nav>

@@ -17,16 +17,16 @@ const support = () => {
          </div>
             <ul className='navlinks'>
               <li>
-                <Link href='/'>Home</Link>
+                <Link href='/' test-cy = 'homebutton'>Home</Link>
               </li>
               <li>
-                <Link href='/about'>About</Link>
+                <Link href='/about' test-cy = 'aboutbutton'>About</Link>
               </li>
               <li>
-                <Link href='/support'><b>Contact</b></Link>
+                <Link href='/support' test-cy = 'contactbutton'><b>Contact</b></Link>
               </li>
               <li>
-                <Link href='/form'>Form</Link>
+                <Link href='/form' test-cy = 'formbutton'>Form</Link>
               </li>
             </ul>
           </nav>
