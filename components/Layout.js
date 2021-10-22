@@ -70,6 +70,9 @@ b {
 
 .allar-myndir {
     padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
 .money {
