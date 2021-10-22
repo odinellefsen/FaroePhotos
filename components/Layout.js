@@ -184,39 +184,4 @@ b {
   button[type="submit"]:hover {
     background-color: rgb(214, 226, 236);
   }
-  
-  #status {
-    width: 100%;
-    max-width: 500px;
-    text-align: center;
-    padding: 10px;
-    margin: 0 auto;
-    border-radius: 8px;
-  }
-  
-  #status.success {
-    background-color: rgb(211, 250, 153);
-    animation: status 4s ease forwards;
-  }
-  
-  #status.error {
-    background-color: rgb(250, 119, 92);
-    color: white;
-    animation: status 4s ease forwards;
-  }
-  
-  @keyframes status {
-    0% {
-      opacity: 1;
-      pointer-events: all;
-    }
-    90% {
-      opacity: 1;
-      pointer-events: all;
-    }
-    100% {
-      opacity: 0;
-      pointer-events: none;
-    }
-  }
 `
