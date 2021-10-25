@@ -23,6 +23,10 @@ const GlobalStyle = createGlobalStyle`
     height: auto;
 }
 
+label {
+  font-family: arial;
+}
+
 .navbar {
     display: flex;
     justify-content: center;
