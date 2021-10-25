@@ -77,7 +77,7 @@ b {
     height: 400px;
     border: 1px solid rgba(0, 0, 0, 0.5);
     margin: auto;
-    border-radius: 0px 0px 5px 5px;
+    border-radius: 0px 0px 2px 2px;
   }
 
   .cash {
@@ -92,7 +92,7 @@ b {
       width: 575px;
       background-color: #fafafa;
       border: 1px solid rgba(0, 0, 0, 0.5);
-      border-radius: 5px 5px 0px 0px;
+      border-radius: 2px 2px 0px 0px;
   }
   
   .myndateksturparent {
